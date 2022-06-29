@@ -157,8 +157,6 @@ public class EmployeeController {
         //employee.setUpdateUser(empId);
 
         employeeService.save(employee);
-        log.info("git123");
-        log.info("git1234");
         return R.success("新增员工成功");
     }
 
